@@ -1,6 +1,6 @@
 {
   "name": "jest-spec-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Spec reporter for Jest",
   "main": "./lib/index.js",
   "directories": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pierreroth64/jest-reporter-spec.git"
+    "url": "git+https://github.com/pierreroth64/jest-spec-reporter.git"
   },
   "keywords": [
     "jest",
@@ -22,9 +22,9 @@
   "author": "Peio Roth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pierreroth64/jest-reporter-spec/issues"
+    "url": "https://github.com/pierreroth64/jest-spec-reporter/issues"
   },
-  "homepage": "https://github.com/pierreroth64/jest-reporter-spec#readme",
+  "homepage": "https://github.com/pierreroth64/jest-spec-reporter#readme",
   "dependencies": {
     "chalk": "2.1.0",
     "moment": "2.18.1"
