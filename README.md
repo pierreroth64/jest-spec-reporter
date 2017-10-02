@@ -28,4 +28,4 @@ module.exports = {
 };
 ```
 
-You can checkout the expected output by running the example in the `example` folder.
+You can checkout the expected output by running `npm run example`.
