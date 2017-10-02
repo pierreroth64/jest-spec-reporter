@@ -1,13 +1,14 @@
 {
   "name": "jest-spec-reporter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple Spec reporter for Jest",
   "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "example": "cd example/ && jest"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,14 @@
   "dependencies": {
     "chalk": "2.1.0",
     "moment": "2.18.1"
+  },
+  "devDependencies": {
+    "jest": "21.2.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/example/"
+    ]
   }
 }

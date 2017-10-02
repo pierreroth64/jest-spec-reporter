@@ -8,6 +8,8 @@ You may install this package as a development dependency:
 npm install jest-spec-reporter --save-dev
 ```
 
+⚠ Tested with Node 8.4 and Jest 21.2.1
+
 ## Configuration
 
 Configure [Jest](https://facebook.github.io/jest/docs/en/configuration.html) to use the reporter.
@@ -25,3 +27,5 @@ module.exports = {
   ]
 };
 ```
+
+You can checkout the expected output by running the example in the `example` folder.
