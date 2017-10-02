@@ -5,7 +5,7 @@
 You may install this package as a development dependency:
 
 ```bash
-npm install jest-spec-reporter --save-dev
+npm install --save-dev jest-spec-reporter
 ```
 
 ⚠ Tested with Node 8.4 and Jest 21.2.1
