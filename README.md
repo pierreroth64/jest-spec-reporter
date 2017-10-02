@@ -1,4 +1,4 @@
-# Simple Spec reporter for jest
+# Simple Spec reporter for jest [![Build Status](https://travis-ci.org/pierreroth64/jest-spec-reporter.svg?branch=master)](https://travis-ci.org/pierreroth64/jest-spec-reporter)
 
 ## Installation
 
