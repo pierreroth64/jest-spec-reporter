@@ -28,4 +28,12 @@ module.exports = {
 };
 ```
 
-You can checkout the expected output by running `npm run example`.
+You can checkout the expected output:
+
+```bash
+git clone https://github.com/pierreroth64/jest-spec-reporter.git
+cd jest-spec-reporter
+npm install
+npm run example
+```
+
