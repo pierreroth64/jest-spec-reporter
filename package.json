@@ -7,8 +7,13 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest",
-    "example": "cd example/ && jest"
+    "jest": "jest",
+    "test": "npm run jest && npm run lint",
+    "lint": "eslint --cache --color --ext .jsx,.js lib example",
+    "example": "cd example/ && jest",
+    "prettier": "prettier --write \"**/*.js\"",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -30,7 +35,11 @@
     "moment": "2.18.1"
   },
   "devDependencies": {
-    "jest": "21.2.1"
+    "eslint": "5.2.0",
+    "eslint-config-arpinum": "5.0.0",
+    "eslint-plugin-jest": "21.18.0",
+    "jest": "23.4.1",
+    "prettier": "1.13.7"
   },
   "jest": {
     "testPathIgnorePatterns": [

@@ -1,4 +1,4 @@
-# Simple Spec reporter for jest [![Build Status](https://travis-ci.org/pierreroth64/jest-spec-reporter.svg?branch=master)](https://travis-ci.org/pierreroth64/jest-spec-reporter) [![npm version](https://badge.fury.io/js/jest-spec-reporter.svg)](https://badge.fury.io/js/jest-spec-reporter)
+# Simple Spec reporter for jest [![Build Status](https://travis-ci.org/pierreroth64/jest-spec-reporter.svg?branch=master)](https://travis-ci.org/pierreroth64/jest-spec-reporter) [![npm version](https://badge.fury.io/js/jest-spec-reporter.svg)](https://badge.fury.io/js/jest-spec-reporter) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Installation
 
@@ -8,7 +8,7 @@ You may install this package as a development dependency:
 npm install --save-dev jest-spec-reporter
 ```
 
-⚠ Tested with Node 8.4 and Jest 21.2.1
+⚠ Tested with Node 8.11.3 and Jest 23.4.1
 
 ## Configuration
 
@@ -19,12 +19,8 @@ For example, create a `jest.config.js` file containing:
 ```javascript
 module.exports = {
   verbose: false,
-  testPathIgnorePatterns: [
-    '/node_modules/',
-  ],
-  reporters: [
-    'jest-spec-reporter'
-  ]
+  testPathIgnorePatterns: ["/node_modules/"],
+  reporters: ["jest-spec-reporter"]
 };
 ```
 
@@ -36,4 +32,3 @@ cd jest-spec-reporter
 npm install
 npm run example
 ```
-
