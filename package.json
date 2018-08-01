@@ -42,6 +42,7 @@
     "prettier": "1.14.0"
   },
   "jest": {
+    "testURL": "http://localhost/",
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/example/"
