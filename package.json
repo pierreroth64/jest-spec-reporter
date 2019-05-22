@@ -31,15 +31,15 @@
   },
   "homepage": "https://github.com/pierreroth64/jest-spec-reporter#readme",
   "dependencies": {
-    "chalk": "2.4.1",
-    "moment": "2.22.2"
+    "chalk": "2.4.2",
+    "moment": "2.24.0"
   },
   "devDependencies": {
-    "eslint": "5.5.0",
+    "eslint": "5.16.0",
     "eslint-config-arpinum": "5.0.0",
-    "eslint-plugin-jest": "21.22.0",
-    "jest": "23.5.0",
-    "prettier": "1.14.2"
+    "eslint-plugin-jest": "22.6.3",
+    "jest": "24.8.0",
+    "prettier": "1.17.1"
   },
   "jest": {
     "testURL": "http://localhost/",
