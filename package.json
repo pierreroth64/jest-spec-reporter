@@ -35,9 +35,9 @@
     "moment": "2.24.0"
   },
   "devDependencies": {
-    "eslint": "6.5.1",
+    "eslint": "6.6.0",
     "eslint-config-arpinum": "5.0.0",
-    "eslint-plugin-jest": "22.19.0",
+    "eslint-plugin-jest": "22.21.0",
     "jest": "24.9.0",
     "prettier": "1.18.2"
   },
