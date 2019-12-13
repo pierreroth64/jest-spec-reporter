@@ -8,8 +8,6 @@ You may install this package as a development dependency:
 npm install --save-dev jest-spec-reporter
 ```
 
-⚠ Tested with Node 8.11.3 and Jest 23.5.0
-
 ## Configuration
 
 Configure [Jest](https://facebook.github.io/jest/docs/en/configuration.html) to use the reporter.
